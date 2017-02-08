@@ -90,7 +90,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Hexo-部署问题收集"><a href="#Hexo-部署问题收集" class="headerlink" title="Hexo 部署问题收集"></a>Hexo 部署问题收集</h1><h2 id="Permission-denied-publickey"><a href="#Permission-denied-publickey" class="headerlink" title="Permission denied (publickey)"></a>Permission denied (publickey)</h2><p>xxxxx@xxxx:~$ ssh -T git@github.com<br>Agent admitted failure to sign using the key.<br>Permission denied (publickey).<br>解决办法：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">xxxxx@xxxx:~$ ssh-add</div></pre></td></tr></table></figure></p>
+        <h2 id="Permission-denied-publickey"><a href="#Permission-denied-publickey" class="headerlink" title="Permission denied (publickey)"></a>Permission denied (publickey)</h2><p>xxxxx@xxxx:~$ ssh -T git@github.com<br>Agent admitted failure to sign using the key.<br>Permission denied (publickey).<br>解决办法：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">xxxxx@xxxx:~$ ssh-add</div></pre></td></tr></table></figure></p>
 <p>再ssh 然后有出现：<br>Hi olivesWh! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
 <p>如果一切正常你会看到这个:<br>Hi username! You’ve successfully authenticated, but GitHub does not provide shell access.<br>当然了,实际情况其实是这样的:<br>Permission denied (publickey).</p>
 <p>去 <a href="https://github.com/account">https://github.com/account</a> 添加一个新的pubkey,或者edit现在的key,完成</p>
