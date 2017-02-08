@@ -90,12 +90,13 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#Hexo 部署问题收集<br>xxxxx@xxxx:~$ ssh -T git@github.com<br>Agent admitted failure to sign using the key.<br>Permission denied (publickey).<br>解决办法：</p>
-<p>xxxxx@xxxx:~$ ssh-add</p>
+        <p>#Hexo 部署问题收集</p>
+<p>##Permission denied (publickey)<br>xxxxx@xxxx:~$ ssh -T git@github.com<br>Agent admitted failure to sign using the key.<br>Permission denied (publickey).<br>解决办法：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">xxxxx@xxxx:~$ ssh-add</div></pre></td></tr></table></figure></p>
 <p>再ssh 然后有出现：<br>Hi olivesWh! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
 <p>如果一切正常你会看到这个:<br>Hi username! You’ve successfully authenticated, but GitHub does not provide shell access.<br>当然了,实际情况其实是这样的:<br>Permission denied (publickey).</p>
 <p>去 <a href="https://github.com/account">https://github.com/account</a> 添加一个新的pubkey,或者edit现在的key,完成</p>
 <p>最后在 git bash 窗口(不是 cmd)运行 hexo d 就可以了.</p>
+<p>##没有样式问题<br>网站没有引入自己的域名的时，_config.yml中 root参数不要修改。</p>
 
       
     </div>

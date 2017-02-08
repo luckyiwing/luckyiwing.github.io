@@ -5,22 +5,22 @@
   
   <title>Hexo 部署问题收集 | 大元宝&amp;Technology</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="#Hexo 部署问题收集xxxxx@xxxx:~$ ssh -T git@github.comAgent admitted failure to sign using the key.Permission denied (publickey).解决办法：
-xxxxx@xxxx:~$ ssh-add
-再ssh 然后有出现：Hi olivesWh! You’ve successfully authen">
+  <meta name="description" content="#Hexo 部署问题收集
+##Permission denied (publickey)xxxxx@xxxx:~$ ssh -T git@github.comAgent admitted failure to sign using the key.Permission denied (publickey).解决办法：1xxxxx@xxxx:~$ ssh-add
+再ssh 然后有出现：Hi oliv">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo 部署问题收集">
 <meta property="og:url" content="https://github.com/luckyiwing/luckyiwing.github.io/2017/02/08/Q/index.html">
 <meta property="og:site_name" content="大元宝&Technology">
-<meta property="og:description" content="#Hexo 部署问题收集xxxxx@xxxx:~$ ssh -T git@github.comAgent admitted failure to sign using the key.Permission denied (publickey).解决办法：
-xxxxx@xxxx:~$ ssh-add
-再ssh 然后有出现：Hi olivesWh! You’ve successfully authen">
-<meta property="og:updated_time" content="2017-02-08T06:37:21.822Z">
+<meta property="og:description" content="#Hexo 部署问题收集
+##Permission denied (publickey)xxxxx@xxxx:~$ ssh -T git@github.comAgent admitted failure to sign using the key.Permission denied (publickey).解决办法：1xxxxx@xxxx:~$ ssh-add
+再ssh 然后有出现：Hi oliv">
+<meta property="og:updated_time" content="2017-02-08T06:49:11.189Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo 部署问题收集">
-<meta name="twitter:description" content="#Hexo 部署问题收集xxxxx@xxxx:~$ ssh -T git@github.comAgent admitted failure to sign using the key.Permission denied (publickey).解决办法：
-xxxxx@xxxx:~$ ssh-add
-再ssh 然后有出现：Hi olivesWh! You’ve successfully authen">
+<meta name="twitter:description" content="#Hexo 部署问题收集
+##Permission denied (publickey)xxxxx@xxxx:~$ ssh -T git@github.comAgent admitted failure to sign using the key.Permission denied (publickey).解决办法：1xxxxx@xxxx:~$ ssh-add
+再ssh 然后有出现：Hi oliv">
   
     <link rel="alternate" href="/atom.xml" title="大元宝&amp;Technology" type="application/atom+xml">
   
@@ -95,12 +95,13 @@ xxxxx@xxxx:~$ ssh-add
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>#Hexo 部署问题收集<br>xxxxx@xxxx:~$ ssh -T git@github.com<br>Agent admitted failure to sign using the key.<br>Permission denied (publickey).<br>解决办法：</p>
-<p>xxxxx@xxxx:~$ ssh-add</p>
+        <p>#Hexo 部署问题收集</p>
+<p>##Permission denied (publickey)<br>xxxxx@xxxx:~$ ssh -T git@github.com<br>Agent admitted failure to sign using the key.<br>Permission denied (publickey).<br>解决办法：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">xxxxx@xxxx:~$ ssh-add</div></pre></td></tr></table></figure></p>
 <p>再ssh 然后有出现：<br>Hi olivesWh! You’ve successfully authenticated, but GitHub does not provide shell access.</p>
 <p>如果一切正常你会看到这个:<br>Hi username! You’ve successfully authenticated, but GitHub does not provide shell access.<br>当然了,实际情况其实是这样的:<br>Permission denied (publickey).</p>
 <p>去 <a href="https://github.com/account">https://github.com/account</a> 添加一个新的pubkey,或者edit现在的key,完成</p>
 <p>最后在 git bash 窗口(不是 cmd)运行 hexo d 就可以了.</p>
+<p>##没有样式问题<br>网站没有引入自己的域名的时，_config.yml中 root参数不要修改。</p>
 
       
     </div>
