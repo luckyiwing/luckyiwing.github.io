@@ -344,13 +344,13 @@
       
         jQuery.ajax({
           type: 'GET',
-          url: 'https://v.api.aa1.cn/api/api-wenan-mingrenmingyan/index.php?aa1=json',
+          url: 'https://v1.hitokoto.cn/?c=b',
           headers: {},
           dataType: 'json',
           success: function(result) {
             var apiText;
             if (result) {
-              var keys = 'mingrenmingyan'.split(',');
+              var keys = 'hitokoto'.split(',');
               if (result instanceof Array) {
                 result = result[0];
               }
@@ -368,7 +368,7 @@
           },
           error: function(xhr, status, error) {
             if (error) {
-              console.error('Failed to request https://v.api.aa1.cn/api/api-wenan-mingrenmingyan/index.php?aa1=json:', error);
+              console.error('Failed to request https://v1.hitokoto.cn/?c=b:', error);
             }
             typing(text);
           }
