@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>RFID库存管软件开发总结</title>
+      <link href="/post/rfid-ku-cun-guan-ruan-jian-kai-fa-zong-jie.html"/>
+      <url>/post/rfid-ku-cun-guan-ruan-jian-kai-fa-zong-jie.html</url>
+      
+        <content type="html"><![CDATA[<p>最近由于业务原因，增加了基于 RFID 标签的库存管理系统。本来以为比较简单，商品贴标，RFID 设备扫，入库完成。出库反向。盘点最爽，到仓库滴一圈就可以了。目前发现想法总是简简单单，实施却有千难万险。但是感谢 AI 时代的到来，所以还是总结下。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ul><li>如何解决会读到其他标签?  添加前缀白名单</li><li>如何解决读到远处标签？   RSSI 过滤</li><li>在复杂的仓库环境如何确定标签读取是否正确？ 回读验证</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> RFID </tag>
+            
+            <tag> Android </tag>
+            
+            <tag> 库存管理 </tag>
+            
+            <tag> 总结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
