@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>AI 看病</title>
+      <link href="/post/ai-kan-bing.html"/>
+      <url>/post/ai-kan-bing.html</url>
+      
+        <content type="html"><![CDATA[<p>最近鼻子痒并伴清水样鼻涕。根据以往经验，这常是感冒的前奏，于是我立刻服用了含对乙酰氨基酚的药物想要拦截病情发展。但一天过去，症状未见缓解，也未出现嗓子疼等典型感冒后续，仅是持续流清涕，既难受又令人困扰。于是我决定向 GPT 询问并直截了当地开场。</p><p>问：如何快速缓解流鼻涕<br>答：（省略废话）1.吸蒸汽；2.捏鼻梁；3.喝热水；4.喝抗过敏药。然后加个了判断</p><blockquote><p>如果你愿意说一下：<br>鼻涕是<strong>清水一样</strong>还是<strong>发黄发黏</strong><br>有没有<strong>打喷嚏 &#x2F; 嗓子痒 &#x2F; 发烧</strong><br>其实能很快判断，是<br><strong>感冒前期</strong>，还是<strong>过敏性鼻炎</strong>。</p></blockquote><p>根据我的描述，最终判断为过敏性鼻炎——这是我长期忽略的。回想起来，这类症状每年都会出现，以前总误以为是感冒，通常会折腾 7–15 天。恰好家中有氯雷他定，服用后大约三天内症状得到控制。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> AI </tag>
+            
+            <tag> 御三家 </tag>
+            
+            <tag> 健康管理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>RFID库存管软件开发总结</title>
       <link href="/post/rfid-ku-cun-guan-ruan-jian-kai-fa-zong-jie.html"/>
       <url>/post/rfid-ku-cun-guan-ruan-jian-kai-fa-zong-jie.html</url>
